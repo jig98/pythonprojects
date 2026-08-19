@@ -1,0 +1,35 @@
+HR EMPLOYEE REPORT
+========================================
+Employee Report
+===============
+Employee ID : E001
+Name        : John
+Department  : IT
+Salary      : 50000
+Employee Report
+===============
+Employee ID : E002
+Name        : Alice
+Department  : HR
+Salary      : 45000
+Employee Report
+===============
+Employee ID : E003
+Name        : Bob
+Department  : Finance
+Salary      : 55000
+Employee Table
+==============
++------+-------+------------+--------+
+|  ID  |  Name | Department | Salary |
++------+-------+------------+--------+
+| E001 |  John |     IT     | 50000  |
+| E002 | Alice |     HR     | 45000  |
+| E003 |  Bob  |  Finance   | 55000  |
++------+-------+------------+--------+
+
+Salary / Bonus Summary
+=======================
+John     Net Salary: 47500.0    Bonus: 5000.0
+Alice    Net Salary: 42750.0    Bonus: 4500.0
+Bob      Net Salary: 52250.0    Bonus: 5500.0
