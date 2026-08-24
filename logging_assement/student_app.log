@@ -1,0 +1,68 @@
+2026-08-24 05:12:00,888 - INFO - Application started.
+2026-08-24 05:12:00,889 - INFO - Student processing started.
+2026-08-24 05:12:00,892 - INFO - Student name received: Ananya
+2026-08-24 05:12:00,892 - ERROR - Invalid input for number of subjects (ValueError).
+2026-08-24 05:12:00,892 - INFO - Number of subjects received: 3
+2026-08-24 05:12:00,892 - INFO - Marks entered successfully.
+2026-08-24 05:12:00,893 - DEBUG - Average calculated successfully: 85.00
+2026-08-24 05:12:00,893 - DEBUG - calculate_average() execution completed.
+2026-08-24 05:12:00,893 - INFO - Result determined for Ananya: Very Good (avg 85.00)
+2026-08-24 05:12:00,893 - INFO - Student statistics calculated successfully.
+2026-08-24 05:12:00,893 - INFO - Student processing completed.
+2026-08-24 05:12:00,893 - INFO - Student processing started.
+2026-08-24 05:12:00,893 - INFO - Student name received: Rahul
+2026-08-24 05:12:00,893 - INFO - Number of subjects received: 3
+2026-08-24 05:12:00,893 - WARNING - Out-of-range mark entered for subject 1: 150.0
+2026-08-24 05:12:00,893 - WARNING - Subject 1 mark is close to the minimum passing mark: 52.0
+2026-08-24 05:12:00,893 - WARNING - Subject 2 mark is below passing range: 40.0
+2026-08-24 05:12:00,893 - INFO - Marks entered successfully.
+2026-08-24 05:12:00,893 - DEBUG - Average calculated successfully: 61.00
+2026-08-24 05:12:00,893 - DEBUG - calculate_average() execution completed.
+2026-08-24 05:12:00,893 - INFO - Result determined for Rahul: Pass (avg 61.00)
+2026-08-24 05:12:00,893 - INFO - Student statistics calculated successfully.
+2026-08-24 05:12:00,893 - INFO - Student processing completed.
+2026-08-24 05:12:00,893 - INFO - Student processing started.
+2026-08-24 05:12:00,893 - WARNING - Empty student name entered.
+2026-08-24 05:12:00,893 - INFO - Student name received: ZeroSubj
+2026-08-24 05:12:00,893 - INFO - Number of subjects received: 0
+2026-08-24 05:12:00,893 - INFO - Marks entered successfully.
+2026-08-24 05:12:00,893 - ERROR - ZeroDivisionError: cannot calculate average with zero subjects.
+2026-08-24 05:12:00,893 - DEBUG - calculate_average() execution completed.
+2026-08-24 05:12:00,893 - CRITICAL - Student processing could not be completed: zero subjects.
+2026-08-24 05:12:00,893 - INFO - Student processing completed.
+2026-08-24 05:12:00,893 - INFO - Application completed.
+2026-08-24 10:53:16,977 - INFO - Application started.
+2026-08-24 10:53:16,977 - INFO - Student processing started.
+2026-08-24 10:53:21,923 - INFO - Student name received: ayush
+2026-08-24 10:53:38,978 - ERROR - Invalid input for number of subjects (ValueError).
+2026-08-24 10:53:55,138 - INFO - Number of subjects received: 35
+2026-08-24 10:54:07,403 - INFO - Student processing completed.
+2026-08-24 10:54:26,487 - INFO - Application started.
+2026-08-24 10:54:26,488 - INFO - Student processing started.
+2026-08-24 10:54:31,118 - INFO - Student name received: ayush
+2026-08-24 10:54:33,765 - INFO - Number of subjects received: 2
+2026-08-24 10:54:40,006 - INFO - Marks entered successfully.
+2026-08-24 10:54:40,006 - DEBUG - Average calculated successfully: 99.50
+2026-08-24 10:54:40,006 - DEBUG - calculate_average() execution completed.
+2026-08-24 10:54:40,007 - INFO - Result determined for ayush: Excellent (avg 99.50)
+2026-08-24 10:54:40,008 - INFO - Student statistics calculated successfully.
+2026-08-24 10:54:40,008 - INFO - Student processing completed.
+2026-08-24 10:54:56,756 - INFO - Student processing started.
+2026-08-24 10:55:00,431 - INFO - Student name received: abc
+2026-08-24 10:55:03,648 - INFO - Number of subjects received: 2
+2026-08-24 10:55:08,298 - WARNING - Out-of-range mark entered for subject 1: -4.0
+2026-08-24 10:55:13,475 - WARNING - Subject 1 mark is below passing range: 5.0
+2026-08-24 10:55:15,113 - WARNING - Subject 2 mark is below passing range: 1.0
+2026-08-24 10:55:15,114 - INFO - Marks entered successfully.
+2026-08-24 10:55:15,114 - DEBUG - Average calculated successfully: 3.00
+2026-08-24 10:55:15,114 - DEBUG - calculate_average() execution completed.
+2026-08-24 10:55:15,115 - INFO - Result determined for abc: Fail (avg 3.00)
+2026-08-24 10:55:15,116 - INFO - Student statistics calculated successfully.
+2026-08-24 10:55:15,117 - INFO - Student processing completed.
+2026-08-24 10:55:23,628 - INFO - Application completed.
+2026-08-24 10:58:08,971 - INFO - Application started.
+2026-08-24 10:58:18,423 - INFO - Application started.
+2026-08-24 10:58:44,009 - INFO - Application started.
+2026-08-24 10:58:47,466 - INFO - Application started.
+2026-08-24 10:58:58,797 - INFO - Application started.
+2026-08-24 10:58:58,798 - INFO - Student processing started.
