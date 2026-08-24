@@ -1,0 +1,33 @@
+test_empty_name_raises (tests.test_rental_system.TestCustomerValidation.test_empty_name_raises) ... ok
+test_invalid_email_raises (tests.test_rental_system.TestCustomerValidation.test_invalid_email_raises) ... ok
+test_valid_customer_created (tests.test_rental_system.TestCustomerValidation.test_valid_customer_created) ... ok
+test_card_number_is_masked_not_stored_plain (tests.test_rental_system.TestPayment.test_card_number_is_masked_not_stored_plain) ... ok
+test_upi_id_is_masked (tests.test_rental_system.TestPayment.test_upi_id_is_masked) ... ok
+test_zero_amount_payment_fails (tests.test_rental_system.TestPayment.test_zero_amount_payment_fails) ... ok
+test_cannot_rent_unavailable_vehicle (tests.test_rental_system.TestRentalWorkflow.test_cannot_rent_unavailable_vehicle) ... ok
+test_invalid_duration_rejected (tests.test_rental_system.TestRentalWorkflow.test_invalid_duration_rejected) ... ok
+test_late_return_calculates_correct_late_fee (tests.test_rental_system.TestRentalWorkflow.test_late_return_calculates_correct_late_fee) ... ok
+test_on_time_return_has_no_late_fee (tests.test_rental_system.TestRentalWorkflow.test_on_time_return_has_no_late_fee) ... ok
+test_payment_failure_prevents_rental_confirmation (tests.test_rental_system.TestRentalWorkflow.test_payment_failure_prevents_rental_confirmation)
+Vehicle must remain available if payment fails -- rental never created. ... ok
+test_return_updates_customer_history (tests.test_rental_system.TestRentalWorkflow.test_return_updates_customer_history) ... ok
+test_returning_unknown_rental_id_raises (tests.test_rental_system.TestRentalWorkflow.test_returning_unknown_rental_id_raises) ... ok
+test_successful_rental_marks_vehicle_unavailable (tests.test_rental_system.TestRentalWorkflow.test_successful_rental_marks_vehicle_unavailable) ... ok
+test_unknown_vehicle_id_rejected (tests.test_rental_system.TestRentalWorkflow.test_unknown_vehicle_id_rejected) ... ok
+test_search_by_id (tests.test_rental_system.TestSearch.test_search_by_id) ... ok
+test_search_by_price_range (tests.test_rental_system.TestSearch.test_search_by_price_range) ... ok
+test_search_by_type (tests.test_rental_system.TestSearch.test_search_by_type) ... ok
+test_search_with_no_filters_returns_all (tests.test_rental_system.TestSearch.test_search_with_no_filters_returns_all) ... ok
+test_bike_discount_over_five_days (tests.test_rental_system.TestVehiclePolymorphism.test_bike_discount_over_five_days) ... ok
+test_bike_no_discount_at_or_under_five_days (tests.test_rental_system.TestVehiclePolymorphism.test_bike_no_discount_at_or_under_five_days) ... ok
+test_car_cost_is_linear (tests.test_rental_system.TestVehiclePolymorphism.test_car_cost_is_linear) ... ok
+test_polymorphic_dispatch_through_base_reference (tests.test_rental_system.TestVehiclePolymorphism.test_polymorphic_dispatch_through_base_reference)
+Same call, different behaviour per subclass -- no type-checking needed. ... ok
+test_van_adds_service_charge (tests.test_rental_system.TestVehiclePolymorphism.test_van_adds_service_charge) ... ok
+test_missing_registration_number_raises (tests.test_rental_system.TestVehicleValidation.test_missing_registration_number_raises) ... ok
+test_non_positive_daily_rate_raises (tests.test_rental_system.TestVehicleValidation.test_non_positive_daily_rate_raises) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.005s
+
+OK
