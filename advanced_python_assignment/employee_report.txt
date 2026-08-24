@@ -1,0 +1,7 @@
+Employee Report
+===============
+Department: IT
+Minimum Salary: 60000
+
+103 - David - IT - 65000
+105 - Alex - IT - 75000
