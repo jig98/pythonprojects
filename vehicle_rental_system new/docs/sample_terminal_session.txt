@@ -1,0 +1,255 @@
+Welcome to the Vehicle Rental Management System.
+Starting inventory has been loaded (1 Car, 1 Bike, 1 Van).
+
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Available Vehicles
+--------------------------------------------------
+V101 | Car | Toyota Etios | Rs. 2,000 per day
+V102 | Bike | Yamaha FZ | Rs. 700 per day
+V103 | Van | Tata Winger | Rs. 3,000 per day
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Register a new customer
+Enter a customer ID (e.g. C001): Enter full name: Enter email address: Enter driving licence number: 
+Customer registered successfully: Customer[C001] Ananya Sharma <ananya@example.com>
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Register a new customer
+Enter a customer ID (e.g. C001): Enter full name: Enter email address: Enter driving licence number: 
+Customer registered successfully: Customer[C002] Rohit Verma <rohit@example.com>
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Rent a vehicle
+Enter your customer ID (or leave blank to register as new): 
+Available Vehicles
+--------------------------------------------------
+V101 | Car | Toyota Etios | Rs. 2,000 per day
+V102 | Bike | Yamaha FZ | Rs. 700 per day
+V103 | Van | Tata Winger | Rs. 3,000 per day
+
+Enter the vehicle ID you want to rent: Enter rental duration in days: 
+Choose a payment method:
+ 1. Card
+ 2. UPI
+Enter choice [1/2]: Enter card number: Enter name on card: 
+Rental confirmed!
+Rental ID: R0001
+Vehicle: Car KA01AB1234
+Rental duration: 3 day(s)
+Base rental amount: Rs. 6,000.00
+Due return date: 2026-08-29
+Payment: Card payment of Rs. 6,000.00 succeeded (ref: **** **** **** 1234, txn: CARD-TXN-0001)
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Rent a vehicle
+Enter your customer ID (or leave blank to register as new): 
+Available Vehicles
+--------------------------------------------------
+V102 | Bike | Yamaha FZ | Rs. 700 per day
+V103 | Van | Tata Winger | Rs. 3,000 per day
+
+Enter the vehicle ID you want to rent:   Vehicle V101 (Car) is currently unavailable.
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Return a vehicle
+Enter the rental ID: Due return date was: 2026-08-29
+How many days late is this return? (0 if on time): 
+Vehicle returned successfully on 2026-08-30.
+
+==================================================
+INVOICE INV-R0001
+==================================================
+Customer        : Ananya Sharma (C001)
+Vehicle         : Car - Toyota Etios (KA01AB1234)
+Rental duration : 3 day(s)
+Start date      : 2026-08-26
+Due return date : 2026-08-29
+Actual return   : 2026-08-30
+--------------------------------------------------
+Base rental amount : Rs. 6,000.00
+Late fee           : Rs. 400.00
+Final amount       : Rs. 6,400.00
+Payment            : Card payment of Rs. 6,000.00 succeeded (ref: **** **** **** 1234, txn: CARD-TXN-0001)
+==================================================
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+View a rental invoice
+Enter the rental ID: 
+==================================================
+INVOICE INV-R0001
+==================================================
+Customer        : Ananya Sharma (C001)
+Vehicle         : Car - Toyota Etios (KA01AB1234)
+Rental duration : 3 day(s)
+Start date      : 2026-08-26
+Due return date : 2026-08-29
+Actual return   : 2026-08-30
+--------------------------------------------------
+Base rental amount : Rs. 6,000.00
+Late fee           : Rs. 400.00
+Final amount       : Rs. 6,400.00
+Payment            : Card payment of Rs. 6,000.00 succeeded (ref: **** **** **** 1234, txn: CARD-TXN-0001)
+==================================================
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+View a customer's rental history
+Enter the customer ID: 
+Rental history for Ananya Sharma (C001):
+  - R0001: Car KA01AB1234 | 3 day(s) | Status: RETURNED | Total: Rs. 6,400.00
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Add a new vehicle
+Enter a vehicle ID (e.g. V104): Vehicle type [Car/Bike/Van]: Enter registration number: Enter brand: Enter model: Enter daily rental rate: 
+Vehicle added successfully: V104 | Bike | Hero Splendor | Rs. 500 per day | Available
+
+Press Enter to return to the menu...
+==================================================
+        VEHICLE RENTAL MANAGEMENT SYSTEM
+==================================================
+ 1. View available vehicles
+ 2. Search vehicles
+ 3. Register a new customer
+ 4. Rent a vehicle
+ 5. Return a vehicle
+ 6. View a rental invoice
+ 7. View a customer's rental history
+ 8. Add a new vehicle (admin)
+ 9. Exit
+==================================================
+
+Enter your choice [1/2/3/4/5/6/7/8/9]: 
+Thank you for using the Vehicle Rental Management System. Goodbye!
