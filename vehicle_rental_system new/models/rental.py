@@ -12,7 +12,7 @@ from datetime import date, timedelta
 
 from exceptions import InvalidRentalDurationError
 
-LATE_FEE_RATE = 0.20  # 20% of daily rate, per late day
+LATE_FEE_RATE = 1.20  # 20% of daily rate, per late daY
 
 
 class Rental:
