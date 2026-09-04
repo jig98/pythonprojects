@@ -1,0 +1,208 @@
+[
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "view_available_vehicles",
+    "status": "success",
+    "details": {
+      "count": 3,
+      "vehicles": [
+        {
+          "vehicle_id": "V101",
+          "type": "Car",
+          "brand": "Toyota",
+          "model": "Etios",
+          "daily_rate": 2000.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V102",
+          "type": "Bike",
+          "brand": "Yamaha",
+          "model": "FZ",
+          "daily_rate": 700.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V103",
+          "type": "Van",
+          "brand": "Tata",
+          "model": "Winger",
+          "daily_rate": 3000.0,
+          "is_available": true
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "register_customer",
+    "status": "success",
+    "details": {
+      "customer_id": "C001",
+      "name": "Ananya Sharma",
+      "email": "ananya@example.com",
+      "licence_number": "DL-1420110012345"
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "register_customer",
+    "status": "success",
+    "details": {
+      "customer_id": "C002",
+      "name": "Rohit Verma",
+      "email": "rohit@example.com",
+      "licence_number": "DL-1420110054321"
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "rent_vehicle",
+    "status": "success",
+    "details": {
+      "rental_id": "R0001",
+      "customer_id": "C001",
+      "customer_name": "Ananya Sharma",
+      "vehicle_id": "V101",
+      "vehicle_type": "Car",
+      "rental_days": 3,
+      "base_amount": 6000.0,
+      "due_return_date": "2026-09-07",
+      "payment_method": "Card",
+      "payment_reference": "**** **** **** 1234",
+      "transaction_id": "CARD-TXN-0001"
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "rent_vehicle",
+    "status": "blocked",
+    "details": {
+      "reason": "vehicle_unavailable",
+      "vehicle_id": "V101",
+      "vehicle_type": "Car",
+      "customer_id": "C002"
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "return_vehicle",
+    "status": "success",
+    "details": {
+      "rental_id": "R0001",
+      "vehicle_id": "V101",
+      "customer_id": "C001",
+      "return_date": "2026-09-08",
+      "late_days": 1,
+      "base_amount": 6000.0,
+      "late_fee": 400.0,
+      "total_amount": 6400.0
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "view_invoice",
+    "status": "success",
+    "details": {
+      "rental_id": "R0001",
+      "base_amount": 6000.0,
+      "late_fee": 400.0,
+      "total_amount": 6400.0
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "view_rental_history",
+    "status": "success",
+    "details": {
+      "customer_id": "C001",
+      "rental_count": 1,
+      "rentals": [
+        {
+          "rental_id": "R0001",
+          "vehicle_type": "Car",
+          "vehicle_id": "V101",
+          "status": "RETURNED",
+          "total_amount": 6400.0
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "add_vehicle",
+    "status": "success",
+    "details": {
+      "vehicle_id": "V104",
+      "type": "Bike",
+      "registration_number": "KA01ZZ0001",
+      "brand": "Hero",
+      "model": "Splendor",
+      "daily_rate": 500.0
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:52:29",
+    "action": "search_vehicles",
+    "status": "success",
+    "details": {
+      "criteria": {
+        "mode": "vehicle_type",
+        "vehicle_type": "Bike"
+      },
+      "result_count": 2,
+      "results": [
+        {
+          "vehicle_id": "V102",
+          "type": "Bike",
+          "brand": "Yamaha",
+          "model": "FZ",
+          "daily_rate": 700.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V104",
+          "type": "Bike",
+          "brand": "Hero",
+          "model": "Splendor",
+          "daily_rate": 500.0,
+          "is_available": true
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-04T03:53:01",
+    "action": "view_available_vehicles",
+    "status": "success",
+    "details": {
+      "count": 3,
+      "vehicles": [
+        {
+          "vehicle_id": "V101",
+          "type": "Car",
+          "brand": "Toyota",
+          "model": "Etios",
+          "daily_rate": 2000.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V102",
+          "type": "Bike",
+          "brand": "Yamaha",
+          "model": "FZ",
+          "daily_rate": 700.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V103",
+          "type": "Van",
+          "brand": "Tata",
+          "model": "Winger",
+          "daily_rate": 3000.0,
+          "is_available": true
+        }
+      ]
+    }
+  }
+]

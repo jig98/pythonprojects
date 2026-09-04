@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2026-09-04T09:30:26",
+    "action": "view_available_vehicles",
+    "status": "success",
+    "details": {
+      "count": 3,
+      "vehicles": [
+        {
+          "vehicle_id": "V101",
+          "type": "Car",
+          "brand": "Toyota",
+          "model": "Etios",
+          "daily_rate": 2000.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V102",
+          "type": "Bike",
+          "brand": "Yamaha",
+          "model": "FZ",
+          "daily_rate": 700.0,
+          "is_available": true
+        },
+        {
+          "vehicle_id": "V103",
+          "type": "Van",
+          "brand": "Tata",
+          "model": "Winger",
+          "daily_rate": 3000.0,
+          "is_available": true
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-04T09:31:09",
+    "action": "register_customer",
+    "status": "success",
+    "details": {
+      "customer_id": "J001",
+      "name": "jigyasa",
+      "email": "jigyasa@gmail.com",
+      "licence_number": "hgjr654"
+    }
+  },
+  {
+    "timestamp": "2026-09-04T09:31:58",
+    "action": "rent_vehicle",
+    "status": "success",
+    "details": {
+      "rental_id": "R0001",
+      "customer_id": "J001",
+      "customer_name": "jigyasa",
+      "vehicle_id": "V101",
+      "vehicle_type": "Car",
+      "rental_days": 3,
+      "base_amount": 6000.0,
+      "due_return_date": "2026-09-07",
+      "payment_method": "UPI",
+      "payment_reference": "j******@sbi",
+      "transaction_id": "UPI-TXN-0001"
+    }
+  }
+]
